@@ -23,7 +23,7 @@ Sample Database Structure:
 
 URL model:
 
-ID 		url
+**ID** **url**
 
 44		http://www.google.com
 
@@ -32,7 +32,7 @@ ID 		url
 
 Tag model:
 
-ID 		type	   content 					        	url_id
+**ID** **type**	 **content** 					     **url_id**
 
 101		 h2		"welcome to facebook"	  		     45
 
