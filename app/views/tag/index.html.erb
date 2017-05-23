@@ -1,0 +1,9 @@
+<% @tag.each do |tag| %>
+<hr>
+<ul>
+	<li>Tag ID: <%= tag.id %> </li>
+	<li><strong>Tag Url:</strong><%= @myurl %></li>
+	<li>Tag Type: <%= tag.tagtype %> </li>
+	<li>Tag Content: <%= tag.content %> </li>
+</ul>
+<% end %>

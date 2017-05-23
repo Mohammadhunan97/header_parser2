@@ -1,0 +1,16 @@
+<style>
+h1,h2,label{
+	text-align: center;
+}
+</style>
+
+<h1>Type in the url for the website you want to parse</h1>
+
+
+<%= form_tag("/url", method: "post") do %>
+  <%= label_tag(:url, "Type in the url for the website you want to parse") %>
+  <%= text_field_tag(:url, 'http://wsiatest.bitballoon.com/') %>
+  <%= submit_tag("submit") %>
+<% end %>
+
+

@@ -1,0 +1,10 @@
+<h1><%= @url %></h1>
+<a href='/tag'>See all available links</a>
+<% @tag.each do |tag| %>
+<hr>
+<ul>
+	<li>Tag ID: <%= tag.id %> </li>
+	<li>Tag Type: <%= tag.tagtype %> </li>
+	<li>Tag Content: <%= tag.content %> </li>
+</ul>
+<% end %>
