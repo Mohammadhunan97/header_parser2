@@ -1,4 +1,8 @@
 #Readme:
+Dependencies:
+Rails 5.0.3
+postgres (PostgreSQL) 9.6.2
+nokogiri-1.7.2
 
 Quick use:
 ==================
@@ -11,13 +15,6 @@ You may also see all the contents of h1,h2,h3,a,link of all links by clicking th
 This app is a user interface which takes in a url and stores the contents of h1, h2, h3, and links (a tag and link tag) and stores it and makes it accessable through a restful api.
 
 *** Note: Since it was specified in the assigment to use the content of the links rather than the src or the href, only the content was included, if you would like to see the src or href instead please contact me and I can adjust this *** 
-
-
-Dependencies:
-Rails 5.0.3
-postgres (PostgreSQL) 9.6.2
-nokogiri-1.7.2
-
 
 
 
