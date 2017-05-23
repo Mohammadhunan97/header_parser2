@@ -1,7 +1,7 @@
 #Readme:
 
 Quick use:
-
+==================
 '/' will let you input a url 
 this will redirect you to '/url/:id_of_your_link' which will show all the contents of h1,h2,h3,a,link tags requested for that link.
 You may also see all the contents of h1,h2,h3,a,link of all links by clicking the "See all available links" link on this page (this will redirect you to '/tag')
@@ -19,8 +19,13 @@ postgres (PostgreSQL) 9.6.2
 nokogiri-1.7.2
 
 
-Sample Database Structure:
 
+
+
+
+
+Sample Database Structure:
+==================
 URL model:
 
 **ID** **url**
