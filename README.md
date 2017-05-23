@@ -24,15 +24,20 @@ Sample Database Structure:
 URL model:
 
 ID 		url
+
 44		http://www.google.com
+
 45		http://www.facebook.com
 
 
 Tag model:
 
-ID 		type	   content 						url_id
-101		 h2		"welcome to facebook"	  		 45
-102		 h3		"welcome to facebook"	  		 45
+ID 		type	   content 					        	url_id
+
+101		 h2		"welcome to facebook"	  		     45
+
+102		 h3		"welcome to facebook"	  		     45
+
 103		 link	"https://www.google.com/imghp"	 44
 
 
